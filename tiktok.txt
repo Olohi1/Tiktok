@@ -1,5 +1,0 @@
-/* MOST POPULAR TRACK(S) */
-SELECT MAX (track_pop) AS track_popularity, track_name
-FROM tiktok_song
-GROUP BY track_name
-ORDER BY MAX(track_pop) DESC LIMIT 1;
